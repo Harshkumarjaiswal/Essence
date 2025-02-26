@@ -45,11 +45,11 @@
                                 <div class="megamenu">
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Women's Collection</li>
-                                        <li><a href="shop.html">Dresses</a></li>
-                                        <li><a href="shop.html">Blouses &amp; Shirts</a></li>
-                                        <li><a href="shop.html">T-shirts</a></li>
-                                        <li><a href="shop.html">Rompers</a></li>
-                                        <li><a href="shop.html">Bras &amp; Panties</a></li>
+                                        <li><a href="dresses.html">Dresses</a></li>
+                                        <li><a href="blouses.html">Blouses &amp; Shirts</a></li>
+                                        <li><a href="tshirts.html">T-shirts</a></li>
+                                        <li><a href="rompers.html">Rompers</a></li>
+                                        <li><a href="lingerie.html">Bras &amp; Panties</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Men's Collection</li>
@@ -202,9 +202,17 @@
 
 
     <div class="contact-area d-flex align-items-center">
-
         <div class="google-map">
-            <div id="googleMap"></div>
+            <div id="googleMap" style="position: relative; min-height: 500px;">
+                <div id="map-loading" style="height: 100%; display: flex; align-items: center; justify-content: center; background: #f5f5f5;">
+                    <div style="text-align: center;">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="sr-only">Loading map...</span>
+                        </div>
+                        <p style="margin-top: 10px;">Loading map...</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="contact-info">
@@ -215,9 +223,9 @@
                 <p><span>address:</span> 10 Suffolk st Soho, London, UK</p>
                 <p><span>telephone:</span> +12 34 567 890</p>
                 <p><a href="mailto:contact@essence.com">contact@essence.com</a></p>
+                <!-- Distance will be added here dynamically -->
             </div>
         </div>
-
     </div>
 
     <!-- ##### Footer Area Start ##### -->
@@ -313,7 +321,7 @@
     <!-- Active js -->
     <script src="js/active.js"></script>
     <!-- Google Maps -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbW58U6O9aYspEtKMhG3-qlDkFNXlUJ-A&libraries=geometry"></script>
     <script src="js/map-active.js"></script>
 
 </body>
